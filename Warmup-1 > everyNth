@@ -1,0 +1,8 @@
+public String everyNth(String str, int n) {
+  String solv = "";
+  for (int i=0; i<str.length(); i = i + n) {
+    solv = solv + str.charAt(i);
+  }
+  return solv;
+ 
+}
