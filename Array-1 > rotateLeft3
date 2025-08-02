@@ -1,0 +1,7 @@
+public int[] rotateLeft3(int[] nums) {
+   int[] temparray = new int[3];
+    temparray[0] = nums[1];
+    temparray[1] = nums[2];
+    temparray[2] = nums[0];
+    return temparray;
+}
