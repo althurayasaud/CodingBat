@@ -1,0 +1,8 @@
+public int[] swapEnds(int[] nums) {
+    int arraylength = nums.length;
+    int temp = 0;
+    temp = nums[0];
+    nums[0] = nums[arraylength-1];
+    nums[arraylength-1] = temp;
+    return nums;
+}
