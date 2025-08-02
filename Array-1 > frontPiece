@@ -1,0 +1,7 @@
+ int[] temparray = new int[2];
+    if(nums.length >= 2){
+	temparray[0] = nums[0];
+	temparray[1] = nums[1];
+	return temparray;
+    }
+    return nums;
